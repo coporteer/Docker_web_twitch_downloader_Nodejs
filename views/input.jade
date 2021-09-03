@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    meta(caharset="utf-8")
+    title twtich 다운로더
+  body
+    h1 다운로드를 위한 정보를 입력해주세요! 
+    h2 링크에는 트위치방송의 썸네일 이미지 주소가 필요합니다! 
+    h2 글자수는 링크의 storyboard앞 "/" 까지의 글자수가 필요합니다.
+    form(action="input_check")
+      p
+        |링크
+        input(type="text" name="link_address")
+      p
+        |글자수
+        input(type="text" name="link_number")
+      p
+        |파일이름
+        input(type="text" name="filename")
+      input(type="submit" value="완료")

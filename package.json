@@ -1,0 +1,22 @@
+{
+  "name": "web-twitch-downloader",
+  "version": "0.0.1",
+  "description": "expree-jade-based-twitch-downloader",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "jade",
+    "express",
+    "ffmpeg",
+    "docker"
+  ],
+  "author": "ousion",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jade": "^1.11.0",
+    "node-hls-downloader": "^2.1.0"
+  }
+}
